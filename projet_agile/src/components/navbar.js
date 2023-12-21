@@ -57,7 +57,7 @@ const NavItem = ({ path, text }) => {
         as={Link}
         to={path}
         style={{
-          color: (path === location.pathname || isHovered) ? 'red' : '#6f42c1',
+          color: (path === location.pathname || isHovered) ? 'grey' : '#6f42c1',
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
