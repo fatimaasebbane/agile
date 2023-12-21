@@ -1,11 +1,10 @@
+import '../css/collaboration.css'
 const Collaboration = () => {
     return ( 
     <div>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css1/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="css1/style.css" type="text/css"/>
-    
+   
         <section className="pricing-section set-bg spad">
         <div className="container">
             <div className="row">
