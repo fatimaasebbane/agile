@@ -12,6 +12,7 @@ function home() {
         <Slider/>
         <Collaboration/>
         <Topics/>
+        <br/><br/><br/><br/>
         <Footer/>
     </div>
   )

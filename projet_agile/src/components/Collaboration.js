@@ -3,13 +3,8 @@ const Collaboration = () => {
     <div>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css"/>
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"/>
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"/>
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"/>
-    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css1/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="css1/style.css" type="text/css"/>
     
         <section className="pricing-section set-bg spad">
         <div className="container">

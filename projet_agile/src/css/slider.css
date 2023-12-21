@@ -4,31 +4,35 @@
     font-weight: 700;
     letter-spacing: 2px;
     text-shadow: 2px 2px #2e0e8c;
+    color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.cd-timer{
+.cd-timer1{
     text-align: right;
     margin: 40px;
     padding-right: 50px;
-    padding-bottom: 70px !important;
+    padding-bottom: 120px !important;
     font-size: 60px;
     font-weight: 500;
     font-family: "Roboto",sans-serif;;
 }
-.hero__caption{
-    margin-top: 200px;
+.hero__caption1{
+    margin-top: 150px;
 }
-.lettre{
+.lettre1{
     font-size: 20px !important;
-}
-.btnn{
-    background-color:#2e0e8c ;
     color: white;
-    margin-top: 60px;
-    margin-left: 120px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 15px;
-    letter-spacing: 2px;
-    font-family: "Roboto",sans-serif;;
+}
+.btnn1{
+    background-color:#2e0e8c!important ;
+    color: white!important;
+    margin-top: 60px!important;
+    margin-left: 120px!important;
+    font-size: 20px!important;
+    font-weight: 500!important;
+    padding: 15px!important;
+    letter-spacing: 2px!important;
+    font-family: "Roboto",sans-serif!important;
+    padding: 30px!important;
+    position: relative!important;
 }
