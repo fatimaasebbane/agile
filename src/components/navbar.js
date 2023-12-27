@@ -26,7 +26,7 @@ const Header = () => {
                 <NavItem path="/submission" text="submission"/>
                 <NavItem path="/keynote speakers" text="keynote speakers"/>
                 <NavItem path="/committees" text="commitees" />
-                <NavItem path="/registration" text="registration" />
+                <NavItem path="/register" text="registration" />
                 <NavItem path="/program" text="program" />
                 <NavItem path="/venue" text="venue" />
                 <NavItem path="/contact" text="Contact" />

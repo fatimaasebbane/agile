@@ -1,6 +1,4 @@
 import React from 'react';
-import Speakers from './Speakers';
-import Livre from './Livre';
 
 const About = () => {
   return (
