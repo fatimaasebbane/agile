@@ -4,10 +4,11 @@
     text-transform: capitalize;
     text-shadow: 1px  black;
     color: #2e0e8c;
+    
    
 }
 
 .header{
     background-color: rgb(241, 248, 241);
-    height: 75px;
+    height: 75px !important;
 }

@@ -58,8 +58,8 @@ p {
     letter-spacing: 2px;
     text-shadow: 3px 3px #2e0e8c;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 230px !important;
-	text-align: center;    
+    text-align: center !important;
+    margin-bottom: 300px;   
 	margin-left: 175px;
 }
 img {

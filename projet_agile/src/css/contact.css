@@ -15,10 +15,10 @@
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 3px 3px #2e0e8c;
-    color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 350px;
-    padding-top: 280px !important;
+    text-align: center !important;
+    margin-bottom: 300px;
 }
 .para {
     font-size: 35px;
