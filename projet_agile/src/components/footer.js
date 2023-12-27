@@ -45,6 +45,7 @@ const Footer = () => {
 
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" style= {{fontFamily: "'Roboto',sans-serif", fontWeight: 'normal',fontStyle: 'normal',color:'black'}} >
 
+
               <h5 className="text-uppercase fw-bold mb-4">
                 Useful links
               </h5>
@@ -68,13 +69,13 @@ const Footer = () => {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style={{color:'black'}}>
 
               <h5 className="text-uppercase fw-bold mb-4">Contact</h5>
-              <p><i className="fas fa-home me-3"></i> 112 Bd Abdelkrim Al Khattabi, Marrakech 40000</p>
+              <p><i className="fas fa-home me-3"></i>05 lot bouizgaren, Rte de Safi, Marrakech 40000</p>
               <p>
                 <i className="fas fa-envelope me-3"></i>
-                ISSAI@Marrakech.com
+                iwssai23@sciencesconf.org
               </p>
               <p><i className="fas fa-phone me-3"></i> + 212 234 567 88</p>
-              <p><i className="fas fa-print me-3"></i> + 212 234 567 89</p>
+            
             </div>
 
           </div>

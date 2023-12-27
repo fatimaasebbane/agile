@@ -4,6 +4,6 @@
 	transition: transform 0.6s;
   }
   
-  .price-item:hover img {
+.price-item:hover img {
 	transform: translateZ(10px); 
   }

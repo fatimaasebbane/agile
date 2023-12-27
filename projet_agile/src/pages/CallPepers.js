@@ -10,28 +10,45 @@ export const CallPepers = () => {
     const TextDecoration = {
         textDecoration: 'underline', 
     };
+    const backgroundImageUrl = 'https://global.ariseplay.com/amg/www.thisdaylive.com/uploads/ARTIFICIAL-INTELLIGENCE.jpg';
+  
     return (
         <div>
-            <Header></Header>
-            {/* Hero Start */}
-            <div className="slider-area2 mb-5" style={{ paddingBottom: '50px !important' }}>
-                <div className="slider-height2 d-flex align-items-center">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-xl-12">
-                                <div className="hero-cap text-center">
-                                    <h2>Call for Papers</h2>
+            <Header/>
+            <br/>
+            <br/>
+            <div style={{ height: '580px' }}>
+                    <div className="slider-area position-relative" style={{
+                        backgroundImage: `url(${backgroundImageUrl})`,
+                        backgroundRepeat: 'no-repeat',
+                        color: 'white',
+                        backgroundSize: 'cover',
+                        height: '100%', 
+                        }}>
+                        <div className="slider-active">
+                        <div className="single-slider slider-height d-flex align-items-center">
+                        <div className="container">
+                            <div className="row">
+                            <div className="col-xl-8 col-lg-8 col-md-9 col-sm-10">
+                                <div className="hero__caption2">
+                                <h1 className='papers_slider'>Call for papers</h1>
                                 </div>
                             </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
             <section className="about-section spad">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 order-lg-2 text-center"> {/* Changez l'ordre des colonnes pour mettre l'image à droite */}
-                            <div className="about-pic">
+                        <div className="col-lg-6 order-lg-2 text-center"> 
+                        <div className="about-pic">
                                 <img  src={image} alt="" />
                             </div>
                         </div>
@@ -70,7 +87,7 @@ export const CallPepers = () => {
                     </div>
                 </div>
             </section>
-            <Footer></Footer>
+        <Footer/>
         </div>
         
     );

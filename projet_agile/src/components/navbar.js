@@ -13,9 +13,9 @@ const Header = () => {
         <Navbar expand="lg" className="main-header">
           <Container fluid>
             <Navbar.Brand>
-              <Link to="/">
+              {/* <Link to="/">
                 <img src={`${process.env.PUBLIC_URL}/images/logo-agile.png`} alt="logo" width="110px" height="90px"/>
-              </Link>
+              </Link> */}
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,7 +29,7 @@ const Header = () => {
                 <NavItem path="/registration" text="registration" />
                 <NavItem path="/program" text="program" />
                 <NavItem path="/venue" text="venue" />
-                <NavItem path="/contact" text="Contact" />
+                <NavItem path="/Contact" text="Contact" />
                 <div className="header-right-btn ml-30">
                   <Link to="/search" className="btn header-btn">
                     <FontAwesomeIcon icon={faSearch} />

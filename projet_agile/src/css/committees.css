@@ -1,0 +1,56 @@
+.Titre{
+    margin: 40px;
+    color: #111111;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+}
+.committees{
+    color: white !important;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px #2e0e8c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 280px;
+    padding-top: 230px !important;
+}
+
+.Honorary_content{
+padding-left: 50px;
+border: solid 1px gray !important;
+border-radius: 10px;
+margin: 35px;
+background-color: rgb(243, 246, 248);
+}
+.organizing_content{
+    padding-left: 50px;
+    border: solid 1px gray !important;
+    border-radius: 10px;
+    margin: 35px;
+    background-color: rgb(243, 246, 248);
+}
+.nom_prof {
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 18px;
+    color: blue;
+}
+.ecole {
+    color: #111111;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    text-align: -webkit-match-parent;
+    font-size: 14px;
+}
+.nom_professeur{
+    color: black !important;
+    font-weight: 400 !important;
+    font-family: "Work Sans", sans-serif !important;
+    font-size: 14px !important;
+}
+
+.card{
+    background-color:rgb(243, 246, 248); 
+    margin-left: 20px;
+}
