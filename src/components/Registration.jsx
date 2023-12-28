@@ -9,7 +9,8 @@ const Registration = () => {
   const [somme, setSomme] = useState(0);
   const [type, setType] = useState("");
   const [pdfFile, setPdfFile] = useState(null);
-  const [nom, setNom] = useState("");
+  const [nom, setNom] = useState("");  
+  const [prenom, setPrenom] = useState("");
   const [fonction, setFunction] = useState("");
   const [mail, setMail] = useState("");
 
@@ -37,27 +38,55 @@ const Registration = () => {
     setPdfFile(selectedFile);
   };
 
+
   // Fonction pour gérer la soumission du formulaire
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     try {
+
+
+
+
+        const data = {
+           
+         
+            nom: nom,
+            prenom: prenom, 
+             email: mail,
+            fonction: fonction,
+          
+            somme: somme
+          };
+
+
+
+
+
+
       const formData = new FormData();
-      formData.append("nom", nom);
-      formData.append("mail", mail);
-      formData.append("fonction", fonction);
+     
+      formData.append("email", mail);
+      
+
       formData.append("type", type);
       if (pdfFile) {
-        formData.append("pdf", pdfFile);
+        formData.append("file", pdfFile);
       }
 
-      const response = await Axios.post("http://localhost:8080/insertParticipant", formData, {
+      const response = await Axios.post("http://localhost:8080/upload", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      });
+      const response2 = await Axios.post("http://localhost:8080/participant/add",data, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
       });
 
       console.log(response.data);
+      console.log(response2.data);
     } catch (error) {
       console.error("Error submitting the form:", error);
     }
@@ -134,6 +163,19 @@ const Registration = () => {
                 placeholder="Enter Function"
                 onChange={(e) => {
                   setFunction(e.target.value);
+                }}
+              />
+            </div>
+          </div><div className="col-12">
+            <div className="form-group">
+              <input
+                className="form-control"
+                name="prenom"
+                id="prenom"
+                type="text"
+                placeholder="Enter firstName"
+                onChange={(e) => {
+                  setPrenom(e.target.value);
                 }}
               />
             </div>
